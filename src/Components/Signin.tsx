@@ -44,10 +44,10 @@ export function Signin() {
                     <div className="text-red-500 text-center pt-2">{error}</div>
                 )}
                 <div className="flex justify-center pt-4 ">
-                    <Button onClick={signin} loading={false} variant="primary" text="Signin" fullWidth={true} />
+                    <Button onClick={signin}  variant="primary" text="Signin" fullWidth={true} />
                 </div>
                 <div className="flex justify-center pt-4 ">
-                    <Button onClick={Signup} loading={false} variant="primary" text="Signup" fullWidth={true} />
+                    <Button onClick={Signup}  variant="primary" text="Signup" fullWidth={true} />
                 </div>
             </div>
         </div>
