@@ -12,7 +12,7 @@ export function Dashboard() {
             <Card title={"DashBoard"}  />
 
         </div>
-        <Link to="/TotalStudents">
+        <Link to="/StudentAttendanceTable">
               <div className="bg-white rounded-md shadow-md border-gray-200 p-4 max-w-72 mt-4 cursor-pointer hover:shadow-lg">
                     <div className="flex " >
                     
@@ -32,7 +32,7 @@ export function Dashboard() {
                     
                     </Link>
 
-                    <Link to="/QRGenerator">
+                    <a href="https://qr-generator-red-ten.vercel.app/">
                     <div className="bg-white rounded-md shadow-md border-gray-200 p-4 max-w-72 mt-4 cursor-pointer hover:shadow-lg">
                     <div className="flex " >
                     
@@ -49,7 +49,7 @@ export function Dashboard() {
                     <div> Duration</div>
                     <div> Present: 58 </div>
                     </div>
-</Link>
+</a>
                     <Link to="/schedule">
                     <div className="bg-white rounded-md shadow-md border-gray-200 p-4 max-w-72 mt-4 cursor-pointer hover:shadow-lg">
                         <div className="flex " >
