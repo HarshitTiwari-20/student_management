@@ -31,6 +31,8 @@ export function Dashboard() {
                     </div>
                     
                     </Link>
+
+                    <Link to="/QRGenerator">
                     <div className="bg-white rounded-md shadow-md border-gray-200 p-4 max-w-72 mt-4 cursor-pointer hover:shadow-lg">
                     <div className="flex " >
                     
@@ -47,7 +49,7 @@ export function Dashboard() {
                     <div> Duration</div>
                     <div> Present: 58 </div>
                     </div>
-
+</Link>
                     <Link to="/schedule">
                     <div className="bg-white rounded-md shadow-md border-gray-200 p-4 max-w-72 mt-4 cursor-pointer hover:shadow-lg">
                         <div className="flex " >
